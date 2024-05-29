@@ -1,0 +1,12 @@
+http://localhost:3000/api/usuarios
+Content-Type: application/json
+###
+POST http://localhost:3000/api/usuarios HTTP/1.1
+content-type: application/json
+
+ {    "nombre_usuario": "mariaJoseprueba",
+      "celular": "4444444",
+      "email": "mariaJose@gmail.com",
+      "contrasena": "admin",
+      "id_rol": 2
+    }
